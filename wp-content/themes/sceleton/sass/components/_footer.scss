@@ -1,0 +1,109 @@
+.footer {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    padding: 80px 20px 80px 20px;
+    font-family: 'Raleway';
+    .wrapper {
+        display: flex;
+        justify-content: space-around;
+        .column-footer {
+            .heading-footer {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                h4 {
+                    margin-right: auto;
+                    font-weight: 300;
+                    position: relative;
+                    display: inline;
+                    margin: 0 auto;
+                    // border-bottom: 1px solid black;
+                    padding-bottom:3px;
+                    &::before {
+                        position: absolute;
+                        display: block;
+                        content: ' ';
+                        width: 10px;
+                        height: 1px;
+                        background: black;
+                        top: 50%;
+                        left: -20px;
+                    }
+                    &::after {
+                        position: absolute;
+                        display: block;
+                        content: '';
+                        width: 10px;
+                        height: 1px;
+                        background: black;
+                        top: 50%;
+                        right: -20px;
+                    }
+                }
+                  
+            }
+            // .another-margin {
+            //     margin-left: 45px;
+            // }
+            .tlf-mail-adress {
+                display: flex;
+                align-items: center;
+                color: black;
+                margin: 15px 0;
+                p {
+                    position: relative;
+                    margin: 0;
+                    &::after {
+                       content: '';
+                       position: absolute;
+                       left: 0;
+                       bottom: 0;
+                       width: 0; /* start with a width of 0 */
+                       height: 1px;
+                    //    background-color: white;
+                    //    background-image: black;
+                       transition: width 0.3s ease-in-out; /* add a transition for the width */
+                       border-bottom: 1px solid black;
+                     }
+                     
+                     &:hover::after {
+                       width: 100%;
+                       opacity: 1; /* set the final opacity to 1 on hover */
+                     }
+                    
+                }
+                lord-icon {
+                    margin-right: 10px;
+                }
+                .arrow-sizer {
+                    width: 20px!important;
+                }
+                a {
+                    align-self: flex-start; /* Add this line */
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .footer {
+        .wrapper {
+            display: block;
+            .column-footer {
+                margin-bottom: 40px;
+                .heading-footer {
+                    text-align: center;
+                }
+            }
+            .tlf-mail-adress {
+                display: flex;
+                justify-content: center;
+            }
+            
+        }
+    }
+}

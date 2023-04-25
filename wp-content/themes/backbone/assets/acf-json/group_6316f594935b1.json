@@ -1,0 +1,860 @@
+{
+    "key": "group_6316f594935b1",
+    "title": "BB Column",
+    "fields": [
+        {
+            "key": "field_6321e03034adc",
+            "label": "Kolumner",
+            "name": "columns",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_6321ddd91bf3a",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_62dfa9ae71f87",
+                    "label": "Innehåll",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_62dfa6a54c320",
+                    "label": "Block",
+                    "name": "block",
+                    "type": "flexible_content",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layouts": {
+                        "layout_63344727ad4bf": {
+                            "key": "layout_63344727ad4bf",
+                            "name": "social_media",
+                            "label": "Social Media",
+                            "display": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_63344737ad4c0",
+                                    "label": "Social Media",
+                                    "name": "social_media",
+                                    "type": "clone",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "clone": [
+                                        "group_633443edf380d"
+                                    ],
+                                    "display": "seamless",
+                                    "layout": "block",
+                                    "prefix_label": 0,
+                                    "prefix_name": 0
+                                }
+                            ],
+                            "min": "",
+                            "max": ""
+                        },
+                        "layout_6334373b79d42": {
+                            "key": "layout_6334373b79d42",
+                            "name": "display_posts",
+                            "label": "Display Posts",
+                            "display": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_6334374d79d43",
+                                    "label": "Display Posts",
+                                    "name": "display_posts",
+                                    "type": "clone",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "clone": [
+                                        "group_633436ca11506"
+                                    ],
+                                    "display": "seamless",
+                                    "layout": "block",
+                                    "prefix_label": 0,
+                                    "prefix_name": 0
+                                }
+                            ],
+                            "min": "",
+                            "max": ""
+                        },
+                        "layout_633407f79c669": {
+                            "key": "layout_633407f79c669",
+                            "name": "nav_menu",
+                            "label": "Nav Menu",
+                            "display": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_633408129c66a",
+                                    "label": "Nav Menu",
+                                    "name": "nav_menu",
+                                    "type": "clone",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "clone": [
+                                        "group_6334079c6733c"
+                                    ],
+                                    "display": "seamless",
+                                    "layout": "block",
+                                    "prefix_label": 0,
+                                    "prefix_name": 0,
+                                    "choices": {
+                                        "footer-business-segments": "Footer - Business segments",
+                                        "footer-company": "Footer - Company",
+                                        "footer-propulsion-systems": "Footer - Propulsion Systems",
+                                        "main-menu": "Main Menu",
+                                        "social": "Social"
+                                    }
+                                }
+                            ],
+                            "min": "",
+                            "max": ""
+                        },
+                        "layout_62dfa7fdd1a05": {
+                            "key": "layout_62dfa7fdd1a05",
+                            "name": "wysiwyg",
+                            "label": "Wysiwyg",
+                            "display": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_62dfa75c3ab76",
+                                    "label": "Wysiwyg",
+                                    "name": "wysiwyg",
+                                    "type": "clone",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "clone": [
+                                        "group_631700de1e4b6"
+                                    ],
+                                    "display": "seamless",
+                                    "layout": "block",
+                                    "prefix_label": 0,
+                                    "prefix_name": 0
+                                }
+                            ],
+                            "min": "",
+                            "max": ""
+                        },
+                        "layout_62dfa8a55d940": {
+                            "key": "layout_62dfa8a55d940",
+                            "name": "images",
+                            "label": "Bild\/bildspel",
+                            "display": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_62dfa8a55d942",
+                                    "label": "Bild\/bildspel",
+                                    "name": "imageblock",
+                                    "type": "clone",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "clone": [
+                                        "group_6317020ddc9c8"
+                                    ],
+                                    "display": "seamless",
+                                    "layout": "block",
+                                    "prefix_label": 0,
+                                    "prefix_name": 0
+                                }
+                            ],
+                            "min": "",
+                            "max": ""
+                        },
+                        "layout_63232cfe61a25": {
+                            "key": "layout_63232cfe61a25",
+                            "name": "image_slider",
+                            "label": "Bildspel",
+                            "display": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_63232d0661a26",
+                                    "label": "Bildspel",
+                                    "name": "image_slider",
+                                    "type": "clone",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "clone": [
+                                        "group_63232a7384a8c"
+                                    ],
+                                    "display": "seamless",
+                                    "layout": "block",
+                                    "prefix_label": 0,
+                                    "prefix_name": 0
+                                }
+                            ],
+                            "min": "",
+                            "max": ""
+                        },
+                        "layout_62fe2df9e3601": {
+                            "key": "layout_62fe2df9e3601",
+                            "name": "buttonrow",
+                            "label": "Knapprad",
+                            "display": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_62fe2df9e3602",
+                                    "label": "Knapprad",
+                                    "name": "buttons_repeater",
+                                    "type": "clone",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "clone": [
+                                        "group_631702cad9396"
+                                    ],
+                                    "display": "seamless",
+                                    "layout": "block",
+                                    "prefix_label": 0,
+                                    "prefix_name": 0
+                                }
+                            ],
+                            "min": "",
+                            "max": ""
+                        },
+                        "layout_62fe3afb33519": {
+                            "key": "layout_62fe3afb33519",
+                            "name": "textrow",
+                            "label": "Textrad",
+                            "display": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_62fe3b443351a",
+                                    "label": "Textrad",
+                                    "name": "textrow",
+                                    "type": "clone",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "clone": [
+                                        "group_6317034caa788"
+                                    ],
+                                    "display": "seamless",
+                                    "layout": "block",
+                                    "prefix_label": 0,
+                                    "prefix_name": 0
+                                }
+                            ],
+                            "min": "",
+                            "max": ""
+                        }
+                    },
+                    "button_label": "Lägg till block",
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "field_62dfaa3bf80fe",
+                    "label": "Inställningar",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_62dfaa65ac939",
+                    "label": "Bredd",
+                    "name": "column_width",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "100": "Hela",
+                        "50": "1\/2",
+                        "33": "1\/3",
+                        "25": "1\/4",
+                        "75": "3\/4",
+                        "66": "2\/3"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_630dc403b3c92",
+                    "label": "Vertikal placering innehåll",
+                    "name": "column_content_vertical",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "top": "Topp",
+                        "center": "Centrerat",
+                        "bottom": "Botten"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_630dc4aa5ef27",
+                    "label": "Horisontell placering innehåll",
+                    "name": "column_content_horizontal",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "left": "Vänster",
+                        "center": "Centrerat",
+                        "right": "Höger"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_630dc3e8b3c90",
+                    "label": "Använd minimumhöjd",
+                    "name": "column_min_height_boolean",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "Ja",
+                    "ui_off_text": "Nej"
+                },
+                {
+                    "key": "field_630dc3f8b3c91",
+                    "label": "Minimumhöjd",
+                    "name": "column_min_height",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_630dc3e8b3c90",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "15",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_62fe4fe6cc225",
+                    "label": "Padding",
+                    "name": "column_padding",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "none": "Inget",
+                        "small": "Litet",
+                        "medium": "Mellan",
+                        "large": "Stort"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_62fcdf834a77a",
+                    "label": "Textfärg",
+                    "name": "column_font_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "enable_opacity": 0,
+                    "return_format": "string"
+                },
+                {
+                    "key": "field_62fcdef0e0d02",
+                    "label": "Bakgrundsfärg",
+                    "name": "column_background_color",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "enable_opacity": 1,
+                    "return_format": "string"
+                },
+                {
+                    "key": "field_62fcdefce0d03",
+                    "label": "Bakgrundsbild",
+                    "name": "column_background_image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_62fe29ea4128c",
+                    "label": "Klickbar kolumn",
+                    "name": "column_clickable",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "Ja",
+                    "ui_off_text": "Nej"
+                },
+                {
+                    "key": "field_62fe2a474128d",
+                    "label": "Länk",
+                    "name": "column_link",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_62fe29ea4128c",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_630cb4b753f9c",
+                    "label": "Custom ID - CSS",
+                    "name": "column_custom_id",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_6321ddd91bf3a",
+                    "label": "Kolumnnamn",
+                    "name": "column_name",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Kolumn",
+                    "placeholder": "Kolumn",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_630cbf86fee8e",
+                    "label": "Dölj kolumn",
+                    "name": "column_hide",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "66",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "Ja",
+                    "ui_off_text": "Nej"
+                },
+                {
+                    "key": "field_630c7df8108e5",
+                    "label": "Mobilanpassning",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_62fe4f8070059",
+                    "label": "Bredd",
+                    "name": "column_width_mobile",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "100": "Hela",
+                        "50": "1\/2",
+                        "33": "1\/3",
+                        "25": "1\/4",
+                        "75": "3\/4",
+                        "66": "2\/3"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_630dc4f45ef2a",
+                    "label": "Vertikal placering innehåll",
+                    "name": "column_content_vertical_mobile",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "top": "Topp",
+                        "center": "Centrerat",
+                        "bottom": "Botten"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_630dc50e5ef2b",
+                    "label": "Horisontell placering innehåll",
+                    "name": "column_content_horizontal_mobile",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "left": "Vänster",
+                        "center": "Centrerat",
+                        "right": "Höger"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_630dc4df5ef28",
+                    "label": "Använd minimumhöjd",
+                    "name": "column_min_height_boolean_mobile",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "Ja",
+                    "ui_off_text": "Nej"
+                },
+                {
+                    "key": "field_630dc4e65ef29",
+                    "label": "Minimumhöjd",
+                    "name": "column_min_height_mobile",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_630dc4df5ef28",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "15",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_62fe504ecc226",
+                    "label": "Padding",
+                    "name": "column_padding_mobile",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "none": "Inget",
+                        "small": "Litet",
+                        "medium": "Mellan",
+                        "large": "Stort"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_630cbfaafee8f",
+                    "label": "Dölj kolumn",
+                    "name": "column_hide_mobile",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "Ja",
+                    "ui_off_text": "Nej"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1664461487
+}

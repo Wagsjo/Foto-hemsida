@@ -1,0 +1,120 @@
+.bb-column {
+   display: grid;
+
+   &.justify-left {
+      justify-content: start;
+   }
+   &.justify-center {
+      justify-content: center;
+   }
+   &.justify-right {
+      justify-content: end;
+   }
+   &.align-top {
+      align-items: start;
+   }
+   &.align-center {
+      align-items: center;
+   }
+   &.align-bottom {
+      align-items: end;
+   }
+
+   @include tablet {
+      &.mobile-justify-top {
+         justify-content: flex-start;
+      }
+      &.mobile-justify-center {
+         justify-content: center;
+      }
+      &.mobile-justify-bottom {
+         justify-content: flex-end;
+      }
+      &.mobile-align-left {
+         align-items: flex-start;
+      }
+      &.mobile-align-center {
+         align-items: center;
+      }
+      &.mobile-align-right {
+         align-items: flex-end;
+      }
+   }
+
+   &.column-hide {
+      display: none;
+   }
+
+   @include tablet {
+      &.column-hide-mobile {
+         display: none;
+      }
+   }
+
+   &.padding-none {
+      padding: 0;
+   }
+   &.padding-small {
+      padding: $pad-small;
+   }
+   &.padding-medium {
+      padding: $pad-medium;
+   }
+   &.padding-large {
+      padding: $pad-large;
+   }
+   &.width-25 {
+      grid-column: span 3;
+   }
+   &.width-33 {
+      grid-column: span 4;
+   }
+   &.width-50 {
+      grid-column: span 6;
+   }
+   &.width-66 {
+      grid-column: span 8;
+   }
+   &.width-75 {
+      grid-column: span 9;
+   }
+   &.width-100 {
+      grid-column: span 12;
+   }
+
+   @include tablet {
+      &.mobile-padding-none {
+         padding: 0;
+      }
+      &.mobile-padding-small {
+         padding: $pad-small;
+      }
+      &.mobile-padding-medium {
+         padding: $pad-medium;
+      }
+      &.mobile-padding-large {
+         padding: $pad-large;
+      }
+      &.width-mobile-25 {
+         grid-column: span 3;
+      }
+      &.width-mobile-33 {
+         grid-column: span 4;
+      }
+      &.width-mobile-50 {
+         grid-column: span 6;
+      }
+      &.widthmobile-66 {
+         grid-column: span 8;
+      }
+      &.widthmobile-75 {
+         grid-column: span 9;
+      }
+      &.width-mobile-100 {
+         grid-column: span 12;
+      }
+   }
+
+   @include mobile {
+   }
+}

@@ -1,0 +1,79 @@
+.acf-row .acf-fields{
+	border-left: 0;
+}
+
+.acf-row .acf-row-handle span{
+	color: #fff !important;
+	font-size: 20px;
+	text-shadow: none !important;
+}
+
+/* Sections */
+.acf-table {
+  border: #e7c344 solid 1px !important;
+}
+
+.acf-row .acf-row-handle,
+.acf-row .acf-tab-wrap {
+  background-color: #b57d00 !important;
+  border-left: 0;
+}
+.acf-row > td{
+	border-top-color: #b57d00 !important;
+}
+
+.acf-row:nth-child(odd) .acf-row-handle,
+.acf-row:nth-child(odd) .acf-tab-wrap {
+	background-color: #e7c344 !important;
+}
+.acf-row:nth-child(odd) > td{
+	border-top-color: #e7c344 !important;
+}
+
+
+
+/* Columns */
+.acf-field-repeater[data-name="columns"] .acf-table{
+	border: #665faf solid 1px !important;
+}
+
+.acf-field-repeater[data-name="columns"] .acf-row .acf-row-handle,
+.acf-field-repeater[data-name="columns"] .acf-row .acf-tab-wrap  {
+  /* background-color: #fff !important; */
+  background-color: #29296d !important;
+}
+.acf-field-repeater[data-name="columns"] .acf-row > td{
+	border-top-color: #29296d !important;
+}
+
+.acf-field-repeater[data-name="columns"] .acf-row:nth-child(odd) .acf-row-handle,
+.acf-field-repeater[data-name="columns"] .acf-row:nth-child(odd) .acf-tab-wrap {
+  /* background-color: #ddd !important; */
+  background-color: #665faf !important;
+}
+.acf-field-repeater[data-name="columns"] .acf-row:nth-child(odd) > td{
+	border-top-color: #665faf !important;
+}
+
+/* Blocks */
+.acf-field-repeater[data-name="columns"] .acf-field-repeater .acf-table{
+	border: #3882d0 solid 1px !important;
+}
+
+.acf-field-repeater[data-name="columns"] .acf-field-repeater .acf-row .acf-row-handle,
+.acf-field-repeater[data-name="columns"] .acf-field-repeater .acf-row .acf-tab-wrap  {
+  /* background-color: #fff !important; */
+  background-color: #10325b !important;
+}
+.acf-field-repeater[data-name="columns"] .acf-field-repeater .acf-row > td{
+	border-top-color: #10325b !important;
+}
+
+.acf-field-repeater[data-name="columns"] .acf-field-repeater .acf-row:nth-child(odd) .acf-row-handle,
+.acf-field-repeater[data-name="columns"] .acf-field-repeater .acf-row:nth-child(odd) .acf-tab-wrap {
+  /* background-color: #ddd !important; */
+  background-color: #3882d0 !important;
+}
+.acf-field-repeater[data-name="columns"] .acf-field-repeater .acf-row:nth-child(odd) > td{
+	border-top-color: #3882d0 !important;
+}

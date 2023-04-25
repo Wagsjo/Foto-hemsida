@@ -1,0 +1,169 @@
+html.overlay {
+	body {
+		height: calc(100vh + var(--overlay-offset));
+		min-height: 100vh;
+		min-height: -webkit-fill-available;
+		position: fixed;
+		top: calc(var(--overlay-offset) * -1);
+		z-index: 0;
+	}
+	.shopArchive,
+	.shopSingleProduct {
+		// z-index: 25;
+	}
+}
+
+.sidebar-container {
+	height: 100%;
+	left: 0;
+	pointer-events: none;
+	position: fixed;
+	top: 0;
+	transition: background-color 0.3s linear;
+	width: 100%;
+	z-index: 25;
+
+	.sidebar-header {
+		padding: 0 2rem;
+		height: 5rem;
+		align-items: center;
+		box-shadow: 0 4px 8px 0 rgba(52, 52, 52, 0.04);
+		display: flex;
+		flex: 0 0 auto;
+		justify-content: flex-end;
+		position: relative;
+		text-align: center;
+		z-index: 1;
+
+		.sidebar-title {
+			font-family: $heading-stack;
+			font-size: 1.25rem;
+			font-weight: 600;
+			margin: 0;
+		}
+
+		.close-mobile-menu {
+			font-size: 2rem;
+		}
+	}
+	.sidebar-main {
+		flex-grow: 1;
+	}
+	.sidebar-footer {
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		position: relative;
+		background: red;
+		padding: 1rem;
+	}
+
+	.sidebar-inner {
+		background-color: #fff;
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: -30rem;
+		right: auto;
+		bottom: 0;
+		width: 30rem;
+		box-shadow: 0 32px 48px 0 rgba(52, 52, 52, 0.08);
+		overflow-x: hidden;
+		overflow-y: scroll;
+		transition: all 0.3s linear;
+
+		&.right {
+			left: auto;
+			right: -30rem;
+		}
+		&.top {
+			top: -30rem;
+			left: 0;
+			right: 0;
+			height: 10rem;
+			width: 100%;
+		}
+	}
+
+	&.open {
+		background-color: rgba(52, 52, 52, 0.32);
+		pointer-events: auto;
+
+		.sidebar-inner {
+			left: 0;
+			right: auto;
+
+			@include mobile {
+				width: calc(100% - 40px);
+			}
+
+			&.right {
+				left: auto;
+				right: 0;
+			}
+			&.top {
+				top: 0;
+			}
+		}
+	}
+}
+
+#header .menu-btn {
+	margin-right: 20px;
+	cursor: pointer;
+	z-index: 9999;
+	margin-top: 10px;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+#header .menu-btn.open .bar1,
+#header .menu-btn.open .bar2 {
+	background-color: black;
+	width: 45px;
+}
+
+#header.transparent .menu-btn.open .bar1,
+#header.transparent .menu-btn.open .bar2 {
+	background-color: black;
+}
+#header.transparent.sticky .menu-btn .bar1,
+#header.transparent.sticky .menu-btn .bar2 {
+	background-color: black;
+}
+
+#header .bar1,
+.bar2 {
+	height: 2px;
+	background-color: black;
+	margin: 8px 0;
+	transition: 0.4s;
+}
+#header .bar1 {
+	width: 45px;
+}
+#header .bar2 {
+	width: 35px;
+}
+
+#header .menu-btn.open .bar1,
+#header .menu-btn.open2 .bar1 {
+	-webkit-transform: rotate(-45deg) translate(2px, -2px);
+	transform: rotate(-45deg) translate(2px, -2px);
+}
+#header .menu-btn.open .bar2,
+#header .menu-btn.open2 .bar2 {
+	-webkit-transform: rotate(45deg) translate(-8px, -8px);
+	transform: rotate(45deg) translate(-8px, -8px);
+}
+#header .menu-btn.open .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-4px, 4px);
+	transform: rotate(-45deg) translate(-4px, 4px);
+}
+#header .menu-btn.open .bar2 {
+	-webkit-transform: rotate(45deg) translate(-2px, -4px);
+	transform: rotate(45deg) translate(-2px, -4px);
+}

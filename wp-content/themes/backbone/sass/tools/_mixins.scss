@@ -1,0 +1,28 @@
+/**
+ * Media query mixin.
+ */
+@mixin laptop {
+	@media (max-width: 1200px) { @content; }
+}
+@mixin tablet {
+	@media (max-width: 990px) { @content; }
+}
+@mixin mobile {
+	@media (max-width: 575px) { @content; }
+}
+
+
+@mixin flex_gap_calc( $cols, $gap ) {
+	display: flex;
+  	flex-wrap: wrap;
+  	gap: $gap;
+  	> * {
+  		width: calc( 100% / #{$cols} - ( #{$gap} * ( 1 - ( 1 / #{$cols} ) ) ) );
+  	}
+	@include mobile{
+		gap: $pad-small;
+		> * {
+			width: calc( 100% / 2 - ( #{$pad-small} * ( 1 - ( 1 / 2 ) ) ) );
+		}
+	}
+}

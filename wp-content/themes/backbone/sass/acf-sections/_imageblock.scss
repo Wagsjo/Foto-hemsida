@@ -1,0 +1,10 @@
+.bb-section {
+	.imageblock {
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			overflow-y: hidden;
+		}
+	}
+}

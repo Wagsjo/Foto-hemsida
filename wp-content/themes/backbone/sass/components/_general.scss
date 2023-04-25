@@ -1,0 +1,58 @@
+body {
+   font-family: $font-stack;
+   background: #fff;
+   color: $font-color;
+   margin: 0;
+   width: 100vw;
+   overflow-x: hidden;
+}
+/**
+ * Wrappers
+ */
+
+//  @media screen and (max-width: 1200px) {
+//    body {
+//       padding: 0 3%;
+      
+//    }
+//  }
+.content-container {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: flex-start;
+   .content-inner-container {
+      width: 100%;
+      max-width: $width;
+      // height: 100px;
+      .content-wrapper {
+         padding: $pad-on-sections;
+         // .content-wrapper {
+         //    padding: 0;
+         // }
+         @include tablet {
+            padding: 0 1rem;
+         }
+      }
+   }
+}
+
+/**
+ * Buttons
+ */
+.button,
+button {
+   // border: 1px solid $button-border-color;
+   // background: $button-background;
+   // border-radius: $button-border-radius;
+   // color: $button-font;
+   // padding: 10px 20px;
+   // display: inline-block;
+
+   &:hover {
+      // border: 1px solid $button-border-color-hover;
+      // background: $button-background-hover;
+      // color: $button-font-hover;
+   }
+}

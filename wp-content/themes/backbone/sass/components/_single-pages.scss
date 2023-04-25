@@ -1,0 +1,40 @@
+// .entry {
+//     max-width: $width;
+// }
+
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px;
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+    padding: 8px 5px;
+    .nav-previous {
+        display: flex;
+        align-items: center;
+        &:hover {
+            p, .prev {
+                opacity: 0.5;
+                transition: all 0.3s ease;
+            }
+        }
+        p {
+            opacity: 0;
+        }
+        .prev {
+            width: 60px;
+            a {
+                font: size 20px;
+            }
+        }
+    }
+    .container-back-to-gallery {
+        display: flex;
+        align-items: center;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}
+

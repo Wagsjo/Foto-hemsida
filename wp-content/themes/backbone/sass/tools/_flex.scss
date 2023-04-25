@@ -1,0 +1,89 @@
+// temp
+// .boxen{
+// 	background-color: lightcoral;
+// 	height: 800px;
+// 	// width: 100%;
+// }
+// header{
+// 	display: none;
+// }
+//
+// .item{
+// 	height: 100px;
+// 	background: lightblue;
+// 	width: 200px;
+// 	border: 1px solid black;
+// }
+
+
+
+/**
+ * Flex basic
+ */
+.flex,
+.flex-row{
+	display: flex;
+	flex-direction: row;
+}
+.flex-col{
+	display: flex;
+	flex-direction: column;
+}
+.flex-wrap{
+	flex-wrap: wrap;
+}
+
+/**
+ * Justify content
+ */
+.justify-start{
+	justify-content: flex-start;
+}
+.justify-end{
+	justify-content: flex-end;
+}
+.justify-center{
+	justify-content: center;
+}
+.justify-between{
+	justify-content: space-between;
+}
+
+/**
+ * Align items
+ */
+.align-start{
+	align-items: flex-start;
+}
+.align-end{
+	align-items: flex-end;
+}
+.align-center{
+	align-items: center;
+}
+
+/**
+ * Gap sizes
+ */
+.gap-s{
+	gap: $pad-small;
+}
+.gap-m{
+	gap: $pad-medium;
+}
+.gap-l{
+	gap: $pad-large;
+}
+
+/**
+ * Flex grid calculations with gaps
+ */
+.flex-4-s{ @include flex_gap_calc( 4, #{$pad-small} ); }
+.flex-4-m{ @include flex_gap_calc( 4, #{$pad-medium} ); }
+.flex-4-l{ @include flex_gap_calc( 4, #{$pad-large} ); }
+.flex-3-s{ @include flex_gap_calc( 3, #{$pad-small} ); }
+.flex-3-m{ @include flex_gap_calc( 3, #{$pad-medium} ); }
+.flex-3-l{ @include flex_gap_calc( 3, #{$pad-large} ); }
+.flex-2-s{ @include flex_gap_calc( 2, #{$pad-small} ); }
+.flex-2-m{ @include flex_gap_calc( 2, #{$pad-medium} ); }
+.flex-2-l{ @include flex_gap_calc( 2, #{$pad-large} ); }

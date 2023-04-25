@@ -1,0 +1,75 @@
+/**
+ * Colors
+ */
+
+$background: #f7f7f7;
+$grey: #f6f6f4;
+$primary: #d4d4d4;
+$secondary: #dbcbb4;
+
+$font-color: #000000;
+$rosa: #CA2E55;
+$rosa-hover: #efb3c2;
+$rosa-mellan: rgb(254, 240, 245);
+$font-color-inverted: #fff;
+$border-color: #d4d4d4;
+
+$header-font-size: 40px;
+$small-header-size: 25px;
+$p-font-size: 1.3rem;
+
+// Header
+$header-background: $background;
+$header-font: $font-color;
+$header-boxshadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+
+// Menu
+$menu-background: $header-background;
+$menu-background-hover: $primary;
+$menu-font: $header-font;
+$menu-font-hover: $font-color-inverted;
+
+//Buttons
+$button-background: $primary;
+$button-font: $font-color-inverted;
+$button-border-color: $primary;
+$button-background-hover: $background;
+$button-font-hover: $primary;
+$button-border-color-hover: $primary;
+
+// Footer
+$footer-background: $secondary;
+$footer-bottom-background: $background;
+$footer-font: $font-color;
+// $footer-font: $font-color;
+$footer-boxshadow: none;
+
+
+
+ /**
+  * Fonts
+  */
+$font-stack: 'Montserrat',Helvetica,Arial,sans-serif;
+$heading-stack: "Raleway", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+
+
+
+/**
+* Spacing/Padding
+*/
+$pad-mini: 0.3rem;
+$pad-small: 1rem;
+$pad-medium: 2rem;
+$pad-large: 3rem;
+$pad-on-sections: 0 20px;
+$margin-between-sections: 120px;
+$margin-btw-cats: 13vh;
+$margin-under-header: 30px;
+
+//Buttons
+$button-border-radius: 20px;
+
+
+//Widths
+$width: 1200px;
